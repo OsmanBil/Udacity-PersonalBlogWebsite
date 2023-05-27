@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+.main-container{
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
+    height: 100vh; 
+    width: 100%;
+}
+
+.header{
+display: flex;
+justify-content: center;
+}
+
+.content{
+
+
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
