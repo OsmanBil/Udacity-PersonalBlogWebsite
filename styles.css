@@ -9,16 +9,20 @@ a{
     color: black;
 }
 
-.main-container{
+.main-container {
     display: grid;
-    grid-template-rows: 20% 70% 10%;
-    height: 100vh; 
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh; 
     width: 100%;
 }
+
 
 .post-categorie{
     color: rgb(54, 54, 255);
     font-weight: 600;
+
+margin-top: 0px;
+    margin-bottom: 2px;
 }
 
 .header{
@@ -29,13 +33,17 @@ a{
     text-decoration: underline;
 }
 
+
 .post-header-h2{
     margin-top: 0;
     margin-bottom: 2px;
 }
 
-.post-data-p{
+.post-data{
     margin-top: 0;
+}
+
+.post-data-p{
     color: grey;
     font-size: 0.8em;
 }
