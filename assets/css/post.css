@@ -59,29 +59,3 @@
 .share-title{
     font-style: italic;  
 }
-
-@media (max-width: 450px) {
-
-    .blog-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .content-right{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .about{
-        padding: 12px;
-    }
-
-    .share{
-        padding: 12px;
-    }
-
-}
