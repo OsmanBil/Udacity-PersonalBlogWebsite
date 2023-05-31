@@ -47,7 +47,9 @@
     object-fit: cover;
 }
 
-
+.blackquote-container-p{
+    margin-bottom: 0px;
+}
 
 .post-header-h2{
     margin-bottom: 2px;
